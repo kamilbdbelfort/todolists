@@ -2,7 +2,10 @@ const express = require("express");
 const User = require("./models").user;
 const TodoList = require("./models").todoList;
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
+const cors = require("cors");
+
+app.use(cors());
 
 app.use(express.json());
 
