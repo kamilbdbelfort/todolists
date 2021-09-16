@@ -12,7 +12,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
+    "use_env_variable": "postgres://xggrbsrohmnjqe:ca5abfd9947dbe4fc9bb14dea9ed8330c6215aa250edd7a4ec7e0d621b04024e@ec2-54-228-162-209.eu-west-1.compute.amazonaws.com:5432/dcp7mqlj1g2dhp",
     "dialectOptions": {
       "ssl": {
         "rejectUnauthorized": false
